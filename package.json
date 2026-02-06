@@ -1,0 +1,16 @@
+{
+  "name": "@cortexair/agent-memory-tools",
+  "version": "0.1.0",
+  "description": "CLI for managing agent memory files - daily logs, long-term memory, search",
+  "main": "lib/memory.js",
+  "bin": {
+    "mem": "./bin/mem.js"
+  },
+  "keywords": ["agent", "memory", "cli", "ai", "logging"],
+  "author": "cortexair",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cortexair/agent-memory-tools.git"
+  }
+}
