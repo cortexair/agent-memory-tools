@@ -1,16 +1,37 @@
 {
   "name": "@cortexair/agent-memory-tools",
-  "version": "0.1.0",
-  "description": "CLI for managing agent memory files - daily logs, long-term memory, search",
+  "version": "0.2.0",
+  "description": "CLI for managing agent memory files - daily logs, long-term memory, search, analytics",
   "main": "lib/memory.js",
   "bin": {
     "mem": "./bin/mem.js"
   },
-  "keywords": ["agent", "memory", "cli", "ai", "logging"],
+  "scripts": {
+    "test": "node test/memory.test.js"
+  },
+  "keywords": [
+    "agent",
+    "memory",
+    "cli",
+    "ai",
+    "logging",
+    "analytics",
+    "tags",
+    "export",
+    "backup"
+  ],
   "author": "cortexair",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/cortexair/agent-memory-tools.git"
-  }
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md"
+  ]
 }
