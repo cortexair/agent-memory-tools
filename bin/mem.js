@@ -68,7 +68,7 @@ function parseArgs(args) {
 
 function usage() {
   console.log(`
-${c('mem', 'bold', 'cyan')} - Agent Memory Tools ${c('v0.2.0', 'dim')}
+${c('mem', 'bold', 'cyan')} - Agent Memory Tools ${c('v0.2.1', 'dim')}
 
 ${c('USAGE', 'bold')}
   mem <command> [options]
@@ -423,7 +423,7 @@ switch (command) {
 
   case '--version':
   case '-v':
-    console.log('0.2.0');
+    console.log('0.2.1');
     break;
 
   default:

@@ -1,6 +1,6 @@
 {
   "name": "@cortexair/agent-memory-tools",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "CLI for managing agent memory files - daily logs, long-term memory, search, analytics",
   "main": "lib/memory.js",
   "bin": {
